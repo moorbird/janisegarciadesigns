@@ -1,0 +1,222 @@
+
+ * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+            font-family: 'Geist';
+            src: url('Geist/static/Geist-Black.ttf') format('ttf');
+            src: url('Geist/static/Geist-Bold.ttf') format('ttf');
+            src: url('Geist/static/Geist-ExtraBold.ttf') format('ttf');
+            src: url('Geist/static/Geist-ExtraLight.ttf') format('ttf');
+
+            src: url('Geist/static/Geist-Light.ttf') format('ttf');
+            src: url('Geist/static/Geist-Medium.ttf') format('ttf');
+            src: url('Geist/static/Geist-Regular.ttf') format('ttf');
+            src: url('Geist/static/Geist-SemiBold.ttf') format('ttf');
+            src: url('Geist/static/Geist-Thin.ttf') format('ttf');
+
+        }
+
+@font-face {
+            font-family: 'Geist Mono';
+            src: url('Geist_Mono/static/GeistMono-Black.ttf') format('ttf');
+            src: url('Geist_Mono/static/GeistMono-Bold.ttf') format('ttf');
+            src: url('Geist_Mono/static/GeistMono-ExtraBold.ttf') format('ttf');
+            src: url('Geist_Mono/static/GeistMono-ExtraLight.ttf') format('ttf');
+
+            src: url('Geist_Mono/static/GeistMono-Light.ttf') format('ttf');
+            src: url('Geist_Mono/static/GeistMono-Medium.ttf') format('ttf');
+            src: url('Geist_Mono/static/GeistMono-Regular.ttf') format('ttf');
+            src: url('Geist_Mono/static/GeistMono-SemiBold.ttf') format('ttf');
+            src: url('Geist_Mono/static/GeistMono-Thin.ttf') format('ttf');
+
+        }
+
+
+
+
+ body {
+font-family: 'Geist Mono', monospace;
+font-weight: 400;
+font-style: normal;
+        }
+ h1, h2, h3, h4 {
+  font-family: "Geist Sans", sans-serif;
+  font-optical-sizing: auto;
+font-weight: 400;
+  font-style: normal;        
+}
+
+h1{font-size:75px!important;}
+
+  .logo{
+   font-family: "Geist Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+ }
+
+
+
+nav{background:#282226;color:#d1d1ce;}
+
+ 
+ .hero {background:#f0e5b9;width:100%;max-width:100%;height:auto;}
+ .hero-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+}
+
+.past-work{background:#282226;color:#d1d1ce;width:100%;max-width:100%;height:auto;}
+.past-work h1{color:#f0e5b9!important;}
+.past-work-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+}
+
+.album{background:#282226;color:#d1d1ce;width:100%;max-width:100%;}
+.album-card{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;}
+
+.contact{background:#f0e5b9;width:100%;max-width:100%;}
+.contact-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+}
+
+
+.box {
+  --b: 4px;   /* thickness of the border */
+  --c: #ab3221;   /* color of the border */
+  --w: 40px;  /* width of border */
+  padding: var(--b); /* space for the border */
+  position:relative;
+  padding:20px 20px 20px 20px;
+  margin-top:20px;
+}
+.box::before {
+  content :"";
+  position: absolute;
+  inset: 0;
+  background: var(--c,red);
+  --_g: #0000 90deg,#000 0;
+  --_p: var(--w) var(--w) no-repeat;
+  --mask:
+    conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+}
+
+
+.box p{padding-bottom:0px; margin-bottom:0px;font-size: 1.25rem;
+    font-weight:300;}
+
+h4.details{
+    font-size: 15px !important;
+    padding: 5px;
+    background: #c8af6c;
+    color: #282226;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+
+h3.title{font-weight:800;color:#f0e5b9!important;}
+
+
+.thumbnail{
+  height:225px;
+  background-size: cover; /* Ensures the image covers the entire area, potentially cropping edges */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+}
+
+
+.thumbnail2{
+  height:225px;
+  background-size: contain; /* Ensures the image covers the entire area, potentially cropping edges */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+}
+
+
+
+button.btn.btn-outline-secondary{
+    border-color:#f0e5b9;
+    color:#f0e5b9;
+}
+
+button.btn.btn-outline-secondary:hover{
+    background-color:#f0e5b9;
+    color: #282226;
+}
+
+.tools.container{background-color:#c8af6c;color:#282226;width:100%;max-width:100%;height:auto;}
+.tools.container h1{color:#282226!important;}
+.tools-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+}
+
+section.footer{background:#282226;color:#d1d1d1;width:100%;max-width:100%;height:auto;}
+li .nav-item{color:#d1d1d1;}
+
+
+.port{display: flex;justify-content: space-between;}
+.project{width:100%;}
+.innerproject{background:linear-gradient(305deg, rgb(0 0 0 / 90%) 0%, rgb(0 0 0 / 80%) 23%, rgb(171 50 33 / 81%) 100%);height: 100%;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;}
+
+.navbar-nav .nav-link.active{
+  color:#f0e5b9!important; border-bottom: 1px solid red;
+}
+.navbar-nav .nav-link:hover{
+  color:#f0e5b9!important; border-bottom: 1px solid red;
+}
+
+.nav-link {
+  font-size:20px!important;
+  color:#d1d1ce!important;
+  margin:0px 0px 0px 20px;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s 
+ease-in-out, background-color .15s 
+ease-in-out, border-color .15s 
+ease-in-out;
+}
+
+footer{    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+
+}
+.footer-link{
+  font-size:20px!important;
+  color:#d1d1ce!important;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s 
+ease-in-out, background-color .15s 
+ease-in-out, border-color .15s 
+ease-in-out;
+}
