@@ -64,7 +64,27 @@ h1{font-size:75px!important;}
 
 
 nav{background:#282226;color:#d1d1ce;}
+nav{background:#282226;color:#d1d1ce;}
 
+
+.navbar.navbar-expand-lg{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+padding-right:24px;
+    padding-left: 24px;
+}
+.navbar.navbar-expand-lg .container{width:100%;max-width:100%;height:auto;padding:0px;}
+
+.navbar-toggler { border:none!important;color:#f0e5b9;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content:space-between;
+    }
+}
  
  .hero {background:#f0e5b9;width:100%;max-width:100%;height:auto;}
  .hero-content {
