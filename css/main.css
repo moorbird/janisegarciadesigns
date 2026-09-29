@@ -55,6 +55,10 @@ font-weight: 400;
 
 h1{font-size:75px!important;}
 
+p.footer.text{text-align: center; font-size:12px; margin-bottom:0px; margin-top:10px;}
+
+.d-flex.justify-content-between.align-items-top h4{color:#f0e5b9;font-weight: 700 !important;}
+
   .logo{
    font-family: "Geist Sans", sans-serif;
   font-optical-sizing: auto;
@@ -79,6 +83,11 @@ padding-right:24px;
 .navbar-toggler { border:none!important;color:#f0e5b9;
 }
 
+@media (min-width: 960px) {
+    .flex-lg-row-reverse {
+        flex-direction: row-reverse !important;
+    }
+  }
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
@@ -86,6 +95,9 @@ padding-right:24px;
     }
 }
  
+
+
+
  .hero {background:#f0e5b9;width:100%;max-width:100%;height:auto;}
  .hero-content {
     margin-left: auto;
@@ -242,4 +254,82 @@ footer{    margin-left: auto;
 ease-in-out, background-color .15s 
 ease-in-out, border-color .15s 
 ease-in-out;
+}
+
+
+section.footer{
+  padding-left:24px;
+  padding-right:24px;
+}
+
+.box a[href^="mailto:"] {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width:991px) {
+.navbar.navbar-expand-lg{
+  padding-right: 15px;
+  padding-left:15px;}
+  .navbar-toggler{
+    padding:0px;}
+  .hero-content.row.flex-lg-row-reverse.align-items-center.g-5.py-5 .col-lg-6{
+       padding:0px;
+   }
+   .hero{
+       padding-left:15px!important;padding-right:15px!important;
+   }
+   .mx-auto{padding-left:0px; padding-right:0px;}
+.past-work{
+    padding-left:15px!important;
+    padding-right:15px!important;
+}
+.album-card.container.pb-5{
+    padding-left:15px!important;
+    padding-right:15px!important;
+}
+.tools.container{
+    padding-left:15px!important;
+    padding-right:15px!important;
+}
+
+.contact-content.row.flex-lg-row-reverse.align-items-center.py-5 .col-lg-6{
+       padding:0px;
+   }
+
+   .contact .container{
+       padding-left:15px!important;
+       padding-right:15px!important;
+   }
+   .footer.container{padding-top:48px!important; padding-bottom:24px!important;}
+}
+
+
+@media (max-width:570px) {
+    h1 {
+        font-size: 48px !important;
+    }
+  
+.row.row-cols-1.row-cols-sm-1.row-cols-md-1.py-5 .col .d-flex.flex-row.justify-content-start{
+  display:flex!important;    
+  flex-direction: column!important;
+
+}
+.d-flex.flex-row.justify-content-start .px-4{
+  padding-left:0px!important;
+  padding-right:0px!important;
+}
+.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3{
+  row-gap:28px;
+}
+.row.row-cols-1.row-cols-sm-1.row-cols-md-1.py-5{
+  padding-bottom:0px!important;
+}
+.thumbnail {
+    height: 325px!important;
+}
+button.btn.btn-outline-secondary.btn-lg.px-4{
+    padding:8px 24px!important;
+}
+
+
 }
