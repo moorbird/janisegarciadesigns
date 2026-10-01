@@ -268,6 +268,32 @@ section.footer{
   overflow-wrap: anywhere;
 }
 
+
+/* Alternate background colors between plays */
+.play-section:nth-of-type(even) {
+  background: #f0e5b9;
+}
+
+.play-details {
+  font-size: .9rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  opacity: .75;
+}
+
+/* Costume sketches are usually tall, so use a portrait shape */
+.play-section .art-item img {
+  aspect-ratio: 3 / 2;
+}
+
+/* Keep the header from covering the heading after a jump link */
+.play-section {
+  scroll-margin-top: 20px;
+}
+
+
+
+
 @media (max-width:991px) {
 .navbar.navbar-expand-lg{
   padding-right: 15px;

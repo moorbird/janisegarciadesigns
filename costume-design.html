@@ -60,74 +60,257 @@
           </div>
         </nav>
 
-<!-- Hero -->
-      <div class="hero container">
-        <div class=" hero-content row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="images/inprogress2.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h3>UNDER CONSTRUCTION</h3>
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              I'm working on it...
-            </h1>
-            <div class="box">
-            <p>
-              Hi, come back later. I'm still gathering my thoughts and costume designs. If you have any questions, 
-              feel free to reach out!
-            </p>
-            </div>
-            <div class="tibit mt-5 pb-0 mb-0">
-              <h3><strong>
-                </strong>
-              </h3>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            </div>
-          </div>
-        </div>
+
+<!-- Enlarged artwork -->
+<div class="modal fade" id="artModal" tabindex="-1" aria-labelledby="artModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content bg-dark border-0" data-bs-theme="dark">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="artModalTitle"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body text-center pt-0">
+        <img id="artModalImg" src="" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
 
 
+
+<section class="costume-intro container py-5">
+  <h1 class="display-5 fw-bold mb-3">COSTUME DESIGN</h1>
+  <p class="lead mb-4">Costume designs created for theatrical productions.</p>
+
+  <div class="d-flex flex-wrap gap-2">
+    <a href="#play-lenfant" class="btn btn-outline-secondary">L'enfant et les sortilèges</a>
+    <a href="#play-midsummer" class="btn btn-outline-secondary">A Midsummer Night's Dream</a>
+  </div>
+</section>
       
-<!-- Contact Me -->
-      <div class="contact container">
-        <div class="contact-content row flex-lg-row-reverse align-items-center py-5">
-                    <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Let's Work Together
-            </h1>
-            <div class="box">
-            <p class="lead">
-            Whether you need a complete website redesign, a fresh user interface,
-            or ongoing website maintenance, I'm here to help. Let's collaborate
-            to bring your digital vision to life.
-            </p>
-            <br>
-            <h4><strong>REACH ME VIA EMAIL AT:</strong></h4>
-            <p class="lead">
-            <a href="mailto:janisegarciadesigns@gmail.com">JANISEGARCIADESIGNS@GMAIL.COM</a></p>
-          </div>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="images/thumbsup.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
-        </div>
+<section class="play-section" id="play-lenfant">
+  <div class="container py-5">
+    <div class="row mb-4">
+      <div class="col-lg-8">
+        <p class="play-details mb-1">Opera by Maurice Ravel</p>
+        <h2 class="fw-bold">L'ENFANT ET LES SORTILÈGES</h2>
+        <p>This is the story of a rude child who is reprimanded by the objects 
+          in his room, which he has been destroying. After being scolded by his 
+          mother in the beginning of the opera, the child throws a tantrum, destroying 
+          the room around him and harming the animals nearby. They all sing out the pain 
+          and misery that the child inflicts on them and their wishes to punish him for his misdeeds.</p>
       </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/lenfant-the-boy.jpg" data-title="The Boy · L'enfant et les sortilèges">
+          <img src="images/lenfant-the-boy.jpg" class="img-fluid"
+               alt="Costume design for The Boy" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">The Boy</p>
+      </div>
+      <!-- copy the <div class="col"> block for each character -->
+              <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/lenfant-the-clock.jpg" data-title="The Clock · L'enfant et les sortilèges">
+          <img src="images/lenfant-the-clock.jpg" class="img-fluid"
+               alt="Costume design for The Clock" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">The Clock</p>
+      </div>
+
+         <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/lenfant-the-bat.jpg" data-title="The Bat · L'enfant et les sortilèges">
+          <img src="images/lenfant-the-bat.jpg" class="img-fluid"
+               alt="Costume design for The Bat" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">The Bat</p>
+      </div>
+
+
+         <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/lenfant-the-china-teacup.jpg" data-title="The China Teacup · L'enfant et les sortilèges">
+          <img src="images/lenfant-the-china-teacup.jpg" class="img-fluid"
+               alt="Costume design for The China Teacup" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">The China Teacup</p>
+      </div>
+
+
+               <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/lenfant-the-tea-kettle.jpg" data-title="The Tea Kettle · L'enfant et les sortilèges">
+          <img src="images/lenfant-the-tea-kettle.jpg" class="img-fluid"
+               alt="Costume design for The Tea Kettle" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">The Tea Kettle</p>
+      </div>
+
+        <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/lenfant-the-squirrel.jpg" data-title="The Squirrel · L'enfant et les sortilèges">
+          <img src="images/lenfant-the-squirrel.jpg" class="img-fluid"
+               alt="Costume design for The Squirrel" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">The Squirrel</p>
+      </div>
+
+        <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/lenfant-the-fire.jpg" data-title="The Fire · L'enfant et les sortilèges">
+          <img src="images/lenfant-the-fire.jpg" class="img-fluid"
+               alt="Costume design for The Fire" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">The Fire</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="play-section" id="play-midsummer">
+  <div class="container py-5">
+    <div class="row mb-4">
+      <div class="col-lg-8">
+        <p class="play-details mb-1">Play by William Shakespeare</p>
+        <h2 class="fw-bold">AS YOU LIKE IT</h2>
+        <p>Set in 1984 Hollywood, California, pop music mogul Duke 
+          Frederick has replaced his bankrupt and ex-rock music producer 
+          brother, Duke Senior. After Senior’s career plunge, Frederick took 
+          in the failed producer’s daughter, Rosalind, allowing her to remain 
+          close to his own daughter, Celia. A young aspiring synth pop musician,
+           Orlando, has fallen head over heals for Rosalind. After defeating a 
+           well renowned glam rocker, Charles, in an epic band battle, Orlando 
+           becomes forced to flee persecution from his newbie music producer 
+           brother, Oliver. Then, in a spontaneous fit of rage Frederick evicts
+            Rosalind from his lavish home. Celia and Rosalind decide to flee  
+            together accompanied by their mansion’s music entertainer and friend, Touchstone.  
+            Rosalind disguised as a man under the name Ganymede and Celia disguised as Aliena, 
+            escape to the  counter culture underground goth city -Forest of Arden, where they bump 
+            into familiar faces while embracing the unfamiliar.</p>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-rosalind.jpeg" data-title="Rosalind · As You Like It">
+          <img src="images/ayli-rosalind.jpeg" class="img-fluid"
+               alt="Costume design for Rosalind" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Rosalind</p>
+      </div>
+      <!-- copy the <div class="col"> block for each character -->
+              <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-celia.jpg" data-title="Celia · As You Like It">
+          <img src="images/ayli-celia.jpg" class="img-fluid"
+               alt="Costume design for Celia" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Celia</p>
+      </div>
+
+         <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/atli-touchstone.jpg" data-title="Touchstone · As You Like It">
+          <img src="images/atli-touchstone.jpg" class="img-fluid"
+               alt="Costume design for Touchstone" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Touchstone</p>
+      </div>
+
+
+         <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-charles.jpg" data-title="The China Teacup · L'enfant et les sortilèges">
+          <img src="images/ayli-charles.jpg" class="img-fluid"
+               alt="Costume design for Charles" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Charles</p>
+      </div>
+
+
+               <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-orlando.jpg" data-title="Orlando · As You Like It">
+          <img src="images/ayli-orlando.jpg" class="img-fluid"
+               alt="Costume design for Orlando" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Orlando</p>
+      </div>
+
+        <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-ganymede.jpg" data-title="The Squirrel · L'enfant et les sortilèges">
+          <img src="images/ayli-ganymede.jpg" class="img-fluid"
+               alt="Costume design for Ganymede" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Ganymede</p>
+      </div>
+
+        <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-aliena.jpg" data-title="The Fire · L'enfant et les sortilèges">
+          <img src="images/ayli-aliena.jpg" class="img-fluid"
+               alt="Costume design for Aliena" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Aliena</p>
+      </div>
+
+        <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-aliena.jpg" data-title="The Fire · L'enfant et les sortilèges">
+          <img src="images/ayli-aliena.jpg" class="img-fluid"
+               alt="Costume design for Aliena" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Aliena</p>
+      </div>
+
+        <div class="col">
+        <a href="#" class="art-item" data-bs-toggle="modal" data-bs-target="#artModal"
+           data-img="images/ayli-aliena.jpg" data-title="The Fire · L'enfant et les sortilèges">
+          <img src="images/ayli-aliena.jpg" class="img-fluid"
+               alt="Costume design for Aliena" loading="lazy">
+        </a>
+        <p class="art-caption mt-2">Aliena</p>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -182,12 +365,18 @@
 
 
 
-
-
-
-    
-    
-    <!-- Bootstrap JS (place before closing body tag) -->
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+      <script>
+    const artModal = document.getElementById('artModal');
+    artModal.addEventListener('show.bs.modal', function (event) {
+      const link = event.relatedTarget;
+      const modalImg = document.getElementById('artModalImg');
+      modalImg.src = link.dataset.img;
+      modalImg.alt = link.querySelector('img').alt;
+      document.getElementById('artModalTitle').textContent = link.dataset.title;
+    });
+  </script>
+    
   </body>
 </html>
