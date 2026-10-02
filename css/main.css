@@ -294,6 +294,67 @@ section.footer{
 
 
 
+
+
+/* Alternate background colors between sections */
+.vm-section:nth-of-type(even) {
+  background: #f0e5b9;
+}
+.vm-section {
+  scroll-margin-top: 20px;
+}
+
+.vm-hero-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* Before/after and window photos: same shape so pairs line up */
+.ba-photo img,
+.vm-photo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+/* Before / After labels on top of the photo */
+.ba-photo {
+  position: relative;
+  display: block;
+}
+.ba-label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 12px;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  background: #262126;
+  color: #f0e5b9;
+  z-index: 1;
+}
+.ba-label-after {
+  background: #9e3a2c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:991px) {
 .navbar.navbar-expand-lg{
   padding-right: 15px;

@@ -62,73 +62,108 @@
 
 
 <!-- Hero -->
-      <div class="hero container">
-        <div class=" hero-content row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="images/inprogress2.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h3>UNDER CONSTRUCTION</h3>
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              I'm working on it...
-            </h1>
-            <div class="box">
-            <p>
-              Hi, come back later. I'm still gathering my thoughts and vintage merchandising ideas. If you have any questions, 
-              feel free to reach out!
-            </p>
-            </div>
-            <div class="tibit mt-5 pb-0 mb-0">
-              <h3><strong>
-                </strong>
-              </h3>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            </div>
-          </div>
+<section class="vm-hero container py-5">
+  <div class="row align-items-center g-5">
+    <div class="col-lg-6">
+      <p class="play-details mb-1">Visual Merchandising</p>
+      <h1 class="display-5 fw-bold mb-3">VINTAGE MERCHANDISING</h1>
+      <p class="lead">Transforming a local costume shop's basement into a curated vintage vault, and designing the window displays that bring shoppers inside.</p>
+      <div class="d-flex flex-wrap gap-2 mt-4">
+        <a href="#the-vault" class="btn btn-outline-secondary">The Vault</a>
+        <a href="#before-after" class="btn btn-outline-secondary">Before &amp; After</a>
+        <a href="#windows" class="btn btn-outline-secondary">Window Displays</a>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <img src="images/vintage/vault-hero.jpg" class="img-fluid vm-hero-img" alt="The finished vintage vault">
+    </div>
+  </div>
+</section>
+
+<!-- The Story -->
+<section class="vm-section" id="the-vault">
+  <div class="container py-5">
+    <h2 class="fw-bold mb-4">THE VAULT</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h4>The Challenge</h4>
+        <p>[What the basement was like before: cluttered, unused, hard to shop.]</p>
+      </div>
+      <div class="col-md-4">
+        <h4>My Role</h4>
+        <p>[What you were responsible for: planning, sorting, styling, signage.]</p>
+      </div>
+      <div class="col-md-4">
+        <h4>The Approach</h4>
+        <p>[How you organized it: by era, color, or category, plus fixtures and lighting.]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Before & After -->
+<section class="vm-section" id="before-after">
+  <div class="container py-5">
+    <h2 class="fw-bold mb-4">BEFORE &amp; AFTER</h2>
+
+    <!-- One pair: copy this whole block for each area -->
+    <div class="ba-pair mb-5">
+      <h4 class="mb-3">[The Entrance]</h4>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <a href="#" class="art-item ba-photo" data-bs-toggle="modal" data-bs-target="#artModal"
+             data-img="images/vintage/entrance-before.jpg" data-title="Before · The Entrance">
+            <span class="ba-label">Before</span>
+            <img src="images/vintage/entrance-before.jpg" alt="The basement entrance before" loading="lazy">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="art-item ba-photo" data-bs-toggle="modal" data-bs-target="#artModal"
+             data-img="images/vintage/entrance-after.jpg" data-title="After · The Entrance">
+            <span class="ba-label ba-label-after">After</span>
+            <img src="images/vintage/entrance-after.jpg" alt="The basement entrance after" loading="lazy">
+          </a>
         </div>
       </div>
+      <p class="art-caption mt-2">[One sentence about what changed in this area.]</p>
+    </div>
+    <!-- end pair -->
 
+  </div>
+</section>
 
-      
-<!-- Contact Me -->
-      <div class="contact container">
-        <div class="contact-content row flex-lg-row-reverse align-items-center py-5">
-                    <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Let's Work Together
-            </h1>
-            <div class="box">
-            <p class="lead">
-            Whether you need a complete website redesign, a fresh user interface,
-            or ongoing website maintenance, I'm here to help. Let's collaborate
-            to bring your digital vision to life.
-            </p>
-            <br>
-            <h4><strong>REACH ME VIA EMAIL AT:</strong></h4>
-            <p class="lead">
-            <a href="mailto:janisegarciadesigns@gmail.com">JANISEGARCIADESIGNS@GMAIL.COM</a></p>
-          </div>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="images/thumbsup.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
+<!-- Window Displays -->
+<section class="vm-section" id="windows">
+  <div class="container py-5">
+    <h2 class="fw-bold mb-4">WINDOW DISPLAYS</h2>
+
+    <!-- One display: copy this whole block for each window -->
+    <div class="window-display mb-5">
+      <p class="play-details mb-1">[Season or Year]</p>
+      <h4 class="fw-bold">[Display Theme]</h4>
+      <p class="mb-4">[The concept: the idea, the story it tells, materials used.]</p>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+        <div class="col">
+          <a href="#" class="art-item vm-photo" data-bs-toggle="modal" data-bs-target="#artModal"
+             data-img="images/vintage/window-theme-1.jpg" data-title="[Display Theme]">
+            <img src="images/vintage/window-theme-1.jpg" alt="[Describe the window]" loading="lazy">
+          </a>
         </div>
+        <!-- copy the <div class="col"> block for each photo -->
       </div>
+    </div>
+    <!-- end display -->
+
+  </div>
+</section>
+
+<!-- Closing -->
+<section class="vm-closing container py-5 text-center">
+  <h2 class="fw-bold mb-3">[The Result]</h2>
+  <p class="lead mb-4">[A line about the outcome, or a quote from the shop owner.]</p>
+  <a href="index.html#contact" class="btn btn-outline-secondary btn-lg px-4">Get in Touch</a>
+</section>
 
 
 
