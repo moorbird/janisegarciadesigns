@@ -294,8 +294,19 @@ section.footer{
 
 
 .vm-photo.floorplan img{
-  aspect-ratio: auto;
+  aspect-ratio: auto; max-width:770px; width:100%;
 }
+
+.art-item.vm-photo.floorplan {display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 
 /* Alternate background colors between sections */
