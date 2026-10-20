@@ -600,6 +600,178 @@ section.footer{
 
 
 
+/* =========================================================
+   Case Study pages (We Cine, Fine Feathered Friends, etc.)
+   Put this file in your css folder: css/case-study.css
+   Colors: #262126 dark · #f0e5b9 cream · #9e3a2c red
+   (swap in your exact values from main.css if they differ)
+   ========================================================= */
+
+/* Section backgrounds */
+.cs-section { scroll-margin-top: 20px; }
+.cs-dark {
+  background: #262126;
+  color: #f0e5b9;
+}
+.cs-cream { background: #f0e5b9; }
+
+/* Back link */
+.cs-back {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: .9rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.cs-back:hover { text-decoration: underline; color: inherit; }
+.cs-back-light { color: #f0e5b9; }
+
+/* Big red step numbers (01, 02, 03...) */
+.cs-step {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #9e3a2c;
+  line-height: 1;
+  margin-bottom: .5rem;
+}
+
+/* Quick facts row under the hero */
+.cs-facts .col {
+  border-top: 3px solid #9e3a2c;
+  padding-top: 1rem;
+}
+.cs-facts h5,
+.cs-label {
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: .5rem;
+}
+.cs-facts p { margin: 0; }
+
+/* Problem statement */
+.cs-statement {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+}
+
+/* Research insight cards */
+.cs-card {
+  border: 2px solid #262126;
+  padding: 1.5rem;
+}
+.cs-card-number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #9e3a2c;
+  margin-bottom: .5rem;
+}
+
+/* Persona */
+.cs-persona { border: 2px solid #262126; }
+.cs-persona-photo img {
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  object-fit: cover;
+}
+.cs-persona-info { padding: 2rem; }
+.cs-persona-info h5 {
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+/* Feature rows */
+.cs-feature { margin-bottom: 4rem; }
+.cs-feature:last-child { margin-bottom: 0; }
+.cs-phone {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+}
+
+/* Process images */
+.cs-process-img { display: block; }
+.cs-process-img img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  cursor: zoom-in;
+  border: 1px solid rgba(0, 0, 0, .15);
+}
+
+/* Style guide */
+.cs-swatch { text-align: center; }
+.cs-swatch span {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 1px solid rgba(240, 229, 185, .4);
+  margin: 0 auto .5rem;
+}
+.cs-swatch p {
+  font-size: .75rem;
+  margin: 0;
+}
+.cs-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(240, 229, 185, .3);
+  padding: .75rem 0;
+}
+.cs-type-preview { font-size: 1.75rem; }
+
+/* Final screens */
+.cs-screen { display: block; }
+.cs-screen img {
+  width: 100%;
+  height: auto;
+  cursor: zoom-in;
+  transition: transform .2s ease;
+}
+.cs-screen:hover img { transform: translateY(-4px); }
+
+/* Next project link */
+.cs-next {
+  color: #f0e5b9;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-weight: 700;
+  text-decoration: none;
+  text-align: right;
+}
+.cs-next:hover { color: #f0e5b9; text-decoration: underline; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
